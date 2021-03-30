@@ -10,7 +10,7 @@ const app = new Koa();
 app.use(async(context,next)=>{
     await next();
 });
-
+console.log(测试);
 
 app.listen(3000,()=>{
     console.log('启动成功');
