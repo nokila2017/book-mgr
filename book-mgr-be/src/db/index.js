@@ -1,5 +1,5 @@
 require('./Shemas/user');
-
+require('./Shemas/InviteCode');
 const mongoose = require('mongoose');
 
 //给那个数据库的哪个集合添加什么格式的文档
